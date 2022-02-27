@@ -1,0 +1,6 @@
+router.get('/api/github', githubCalls);
+  router.get('/api/github', gone);
+  router.get('/u/:email', unsubscribeDeprecated);
+  router.get('/unsubscribe/:email', unsubscribeDeprecated);
+  router.get('/ue/:unsubscribeId', unsubscribeById);
+  router.get('/resubscribe/:unsubscribeId', resubscribe);
